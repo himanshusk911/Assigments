@@ -1,0 +1,8 @@
+public class ConcatExample{    
+public static void main(String args[]){    
+String s1="hi";     
+s1.concat("is immutable");    
+System.out.println(s1);    
+s1=s1.concat(" hello world");    
+System.out.println(s1);    
+}}    
