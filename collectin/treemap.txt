@@ -1,0 +1,26 @@
+
+import java.util.*;
+
+public class tMap{
+
+	// Main driver method
+	public static void main(String[] args)
+	{
+		TreeMap<Integer, Long> tree_map
+			= new TreeMap<Integer, Long>();
+
+		
+		tree_map.put(10, 1);
+		tree_map.put(15, 2);
+		tree_map.put(20, 2);
+		tree_map.put(25, 4);
+		tree_map.put(30, 5);
+
+		// Printing the elements of TreeMap
+		System.out.println("Initial Mappings are: "
+						+ tree_map);
+
+		System.out.println("The collection is: "
+						+ tree_map.values());
+	}
+}
