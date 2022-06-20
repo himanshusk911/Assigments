@@ -27,3 +27,13 @@ ArithmeticException obj = new ArithmeticException();
 obj.divide(1, 0);  
 }  
 }  
+//for unsupported exception
+try
+		{
+		int ans = a/b;
+		System.out.println("answer is : "+ans);
+		}
+		catch(ArithmeticException e){
+		throw new UnsupportedOperationException("Number is not divided by zero");
+
+		}
