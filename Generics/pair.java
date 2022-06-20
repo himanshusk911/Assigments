@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Pair1 {
 	public static void main(String[] args) {
 		HashMap<String,String> hashmap1 = new HashMap<String,String>();
-		hashmap1.put("1", "hello");
+		hashmap1.put("12", "jack");
 		System.out.println(hashmap1);
 	}
 }
