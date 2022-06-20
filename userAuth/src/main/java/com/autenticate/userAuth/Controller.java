@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-	@RequestMapping("/auth.html")
-	public String userAuth(@ModelAttribute("User") User User) {
+	@RequestMapping(value="/isvalid/{name}/{password}",method= RequestMethod.GET)
+	public String userAuth(@RequestBody @ModelAttribute("User") User User) {
 	
 	
 	boolean isvalid=check(User.getName(),User.getPassword());
