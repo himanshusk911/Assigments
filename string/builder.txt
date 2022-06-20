@@ -1,0 +1,17 @@
+public class Stringbuilder {
+
+	public static void main(String[] args) {
+		StringBuilder builder = new StringBuilder("String");
+		builder.append("builder ");
+		System.out.println(builder);
+
+		StringBuffer builder1 = new StringBuffer("apeending in string builder");
+		builder1.insert(3, "news ");
+		System.out.println(builder1);
+
+		StringBuffer builder2 = new StringBuffer("Reversing ");
+		builder2.reverse();
+		System.out.println("Reverse builder = " + builder2);
+		}
+
+}

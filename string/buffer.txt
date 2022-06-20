@@ -1,0 +1,18 @@
+public class Stringbuffer {
+
+	public static void main(String[] args) {
+		
+		StringBuffer buffer = new StringBuffer("Buffer ");
+		buffer.append(" string"+"is mutable");
+		System.out.println(buffer);
+		StringBuffer buffer1 = new StringBuffer("This is string buffer exampple");
+		buffer1.insert(3, "the ");
+		System.out.println(buffer1);
+		StringBuffer buffer2 = new StringBuffer("reversing in buffer");
+		buffer2.reverse();
+		System.out.println("Reverse = " + buffer2);
+		}
+
+
+
+}
