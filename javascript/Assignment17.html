@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+    </head>
+    <body>
+    <script>
+    function RightRotate(a, n, k)
+    {
+        // If rotation is greater
+        // than size of array
+        k = k % n;
+        for (let i = 0; i < n; i++) {
+            if (i < k) {
+                // Printing rightmost
+                // kth elements
+                document.write(a[n + i - k] + " ");
+            }
+            else {
+                // Prints array after
+                // 'k' elements
+                document.write((a[i - k]) + " ");
+            }
+        }
+        document.write("<br>");
+    }
+        let Array = [1, 2, 3, 4, 5,6];
+    let N = Array.length;
+    let K = 3;
+    RightRotate(Array, N, K);
+    </script>
+        </body>
+    </html>
+    
+    
